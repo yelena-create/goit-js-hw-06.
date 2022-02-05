@@ -12,13 +12,11 @@ let counterValue = 0;
 function onDecrementBtnRefClick() {
     counterValue -= 1;
     refs.counterValueRef.textContent = counterValue;
-    // return
      }
 
 function onIncrementBtnRefClick() { 
     counterValue += 1;
     refs.counterValueRef.textContent = counterValue;
-    // return
     
 }
 
