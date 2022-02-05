@@ -19,7 +19,7 @@ console.log(imgList);
 const imgItem = images.map(el => {
   return `
   <li>
-  <img src="${el.url}" alt="${el.alt}" width="150"> 
+  <img src="${el.url}" alt="${el.alt}"> 
   </li>`
   })
   .join('');

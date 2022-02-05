@@ -1,19 +1,27 @@
 const itemEl = document.querySelectorAll('.item');
 console.log(`Number of categories: `, itemEl.length);
 
-const quontityEl = document.querySelectorAll(" .item ul");
+const ulEl = document.querySelectorAll(" .item ul");
 
-for (let i = 0; i < itemEl.length; i+=1) {
-    const textEl = itemEl[i].firstElementChild;
-console.log(`Categories: `,textEl.textContent);
-    const number = quontityEl[i].children;
-console.log(`Elements: `,number.length);
-
+itemEl.forEach(el => {
+    const textEl = el.firstElementChild;
+    console.log(`Categories: `, textEl.textContent);
+    const number = el.children;
+    console.log(`Elements: `, number.length);
     
-}
+});
 
 
 
+// itemEl.forEach(el => {
+    
+// const h2 = el.querySelector('h2');
+// const elItems = el.querySelectorAll('li');
+    
+// console.log(
+// `Categories: ${h2.textContent}
+//  Elements: ${elItems.length}`);
+// });
 
 
 
