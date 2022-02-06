@@ -3,12 +3,6 @@ const refs = {
     emailRef: document.querySelectorAll('.login-form input'),
     ButtonSubmitRef:document.querySelector('.login-form>button'),
 }; 
-// console.log(refs.formRef);          //форма
-// console.log(refs.emailRef);
-// console.log(refs.emailRef[0]);      //емейл
-// console.log(refs.emailRef[1]);      // пароль
-// console.log(refs.ButtonSubmitRef);  //кнопка
-
 refs.formRef.addEventListener('submit', onFormSubmit);
 
 
