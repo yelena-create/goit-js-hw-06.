@@ -15,11 +15,11 @@ console.log(event.currentTarget.value);
 // const inputSizeControl = document.querySelector('#font-size-control');
 // const text = document.querySelector('#text');
 
-// inputSizeControl.addEventListener('click', onTextFontChange);
+// inputSizeControl.addEventListener('input', onTextFontChange);
 
 // function onTextFontChange(event) {
 //     text.style.fontSize = event.currentTarget.value + "px";
-//конкантенация строк?
+// // конкантенация строк, резкий скачок изменения размера
 // }
 
 
