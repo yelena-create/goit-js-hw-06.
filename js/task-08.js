@@ -15,15 +15,13 @@ function onFormSubmit(event) {
         const formData = new FormData(event.currentTarget);
     console.log(FormData);
     formData.forEach((value, name) => {
-        console.log('value=', value, 'name=', name    );
+        console.log({value, name});
     });
         refs.formRef.reset();
     }
     
 }
-function reset() { 
-    refs.emailRef.value = '';
-}
+
 
 
 
